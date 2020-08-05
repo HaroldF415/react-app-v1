@@ -7,8 +7,11 @@
     font-family: "Montserrat", sans-serif;
   }
   body {
-    background: #ffffdd;
+    /* background: #ffffdd; */
     padding: 0;
+    background-color: #006570;
+    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   }
   
   header {
@@ -60,6 +63,7 @@
     float: right;
     margin-right: 10px;
     color: #006a71;
+    background-color: transparent;
     border: none;
     width: 36px;
     height: 36px;
